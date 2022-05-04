@@ -1,4 +1,5 @@
 # + - * / 
+# arithmethic
 a=5
 a+=5
 print(a)
@@ -10,3 +11,6 @@ print(b)
 c=8
 c/=2
 print(c)
+
+# logical 
+# and or not

@@ -12,3 +12,10 @@ railings, their bodies dizzied by the lurching vessel,
 
              trunks pulled by hand, Where are you from? I...'''); 
 
+# for adding two string we use + 
+print("VIRAJ "+"SHAH")
+sum=5
+# but we can't use + two join two different data types 
+print("SUM="+sum) 
+# different data types use ,
+print("SUM=",sum) 

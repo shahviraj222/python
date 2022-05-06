@@ -22,7 +22,7 @@ dic1.update(dic2)
 print("After merging two dictionary",dic1)
 
 # get methode 
-# print(dic1["Dolly"]) #Dolly is not in dictionary so this give error 
+print(dic1["Dolly"]) #Dolly is not in dictionary so this give error 
 print(dic1.get("Dolly"))#but this is not give error get methode benifit
 
 print(dic1["Viraj"])

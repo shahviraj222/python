@@ -8,6 +8,6 @@ print(name[-1])
 
 # slicing
 # name[intial:ending:skipping] (intial = inclusive ) (ending=exclusive) (skipping= nth ko skip karo )
-
+# if skipping is one then do effect 
 name="VIRAJSHAH"
 print(name[0::2]) #every second is skipped

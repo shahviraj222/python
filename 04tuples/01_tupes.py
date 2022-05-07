@@ -7,7 +7,7 @@ from copy import copy, deepcopy
 t=(1,5,4,5,850,521,5)
 
 t1=(2) #this is wrong way to create tuples
-print("t1=",1)
+print(t1)
 t2=(52,)
 print("t2=",t2)
 print(t.count(5))
@@ -28,7 +28,7 @@ print("printing before adding new element in older one",student_copy)
 student[1].append("VVv")
 print("printing after adding new element in older one",student_copy)
 
-# imp tuple not copy with this methode
+# imp tuple not copy with this methode (this is not work)
 student_copy2=copy(student)
 print("printing before adding new element in older one",student_copy2)
 student[1].append("VVv")

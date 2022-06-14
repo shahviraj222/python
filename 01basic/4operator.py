@@ -12,5 +12,12 @@ c=8
 c/=2
 print(c)
 
+d=5
+d**=2
+print(d)
+
+e=10
+e%=2
+print(e)
 # logical 
 # and or not

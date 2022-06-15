@@ -17,7 +17,7 @@ for i in thislist:
 	for j in i:
    			print(j,end=" ")
           
-	print(i)
+	# print(i)
 
 print(thislist) 
 

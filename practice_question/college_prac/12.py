@@ -7,6 +7,6 @@ n=int(input("Enter the number you want to genrate:"))
 x=random.sample(range(x,y),n)
 print(type(x))
 print(x)
-
-
+# min function is added
+print("Min=",min(x))
 
